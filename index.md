@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a10b0ad51a2f8ff58ab7)
+
 You can use the [editor on GitHub](https://github.com/orluzuriaga/CodeChallenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
