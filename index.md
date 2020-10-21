@@ -57,18 +57,12 @@ Prueba técnica para cloudApi, donde se construye una API son springBoot que ges
 ### Service
   la capa servicio de la api
   
+
 ### Test
   Se incluyen los test unitarios
-  
- 
-  
-  
-  
-  
-  
 
- 
-
+### Documentación
+  
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a10b0ad51a2f8ff58ab7)
 
 
