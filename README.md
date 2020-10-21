@@ -33,10 +33,12 @@ Prueba técnica para cloudApi, donde se construye una API son springBoot que ges
    Devuelve el código 200 y el usuario eliminado (deshabilitado), el código  400 si el id es invalido, 404 si no se encuentra al usuario.
    
    
+   
  ### Converter
    Para trabajar correctamente y no exponer todos los datos del usuario de la BBDD, se crea un ObjetosDto, en esta clase realizo la conversión me 
    ayudo de la Librería modelmapper.
-   
+  
+  
  ### Dto
  Contiene las clases UserDto y AddressDto que permitirar el filtrado de los parametros a exponer.
  
