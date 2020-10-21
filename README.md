@@ -58,8 +58,7 @@ Prueba técnica para cloudApi, donde se construye una API son springBoot que ges
   ### test
   Se incluyen los test unitarios
   
-  #### Documentación
-   Para documentar la API utilizamos swagger
+ 
   
   
   
