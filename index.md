@@ -1,5 +1,6 @@
 
 
+
 ## CODE CHALLENGE
 
 Prueba técnica para cloudApi, donde se construye una API son springBoot que gestiona un CRUD  de usuarios
@@ -32,28 +33,33 @@ Prueba técnica para cloudApi, donde se construye una API son springBoot que ges
    Devuelve el código 200 y el usuario eliminado (deshabilitado), el código  400 si el id es invalido, 404 si no se encuentra al usuario
    
    
+   
  ### Converter
    Para trabajar correctamente y no exponer todos los datos del usuario de la BBDD, se crea un ObjetosDto, en esta clase realizo la conversión me 
-   ayudo de la Librería modelmapper
-   
+   ayudo de la Librería modelmapper.
+  
+  
  ### Dto
  Contiene las clases UserDto y AddressDto que permitirar el filtrado de los parametros a exponer
  
+ 
  ### Entity
- Contiene los dos modelos creados User y Address.
+ Contiene los dos modelos creados User y Address
+ 
  
  ### Errror
- Contiene los error creados para personalizar las respuestas. Me apoyo de ControllerAdvice para el controlor global de los errores
- y creo 3 errors 
-  * InvalidInputException
-  * UserNotFoundException
+ Contiene los error creados para personalizar las respuestas. Me apoyo de ControllerAdvice para el controlor global de los errores.
+ y creo 3 errors.
+  * InvalidInputException.
+  * UserNotFoundException.
   * UserNotValidException
   
   ### Repository
   Repositorio de la API, creo un SQL para listas todos los usuarios habilitados.
   
+  
   ### Service
-  la capa servicio de la api.
+  la capa servicio de la api
   
   ### Test
   Se incluyen los test unitarios
@@ -68,3 +74,5 @@ Prueba técnica para cloudApi, donde se construye una API son springBoot que ges
  
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a10b0ad51a2f8ff58ab7)
+
+
