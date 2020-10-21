@@ -17,7 +17,8 @@ Prueba técnica para cloudApi, donde se construye una API son springBoot que ges
 
 ### Controller
   Controlador donde nos encontramos los siguientes métodos CRUD y donde inyectamos nuestro servicio.
-   1. getUser()  devuelve el código 200, junto con una lista de todos los usuarios, devuelve el código 400 si la lista está vacía.
+   1. getUser()  
+   > devuelve el código 200, junto con una lista de todos los usuarios, devuelve el código 400 si la lista está vacía.
    2. getAllUserEnabled(),  devuelve el código200 y la lista de todos los usuarios habilitados, 400 si la lista está vacia.
    3. createUser(), devuelve el código 201 y el usuario nuevo, 405 si la entrada es invalida.
    4. getUser(), devuelve el código 200 y el usuario encontrado, devuelve el código 404 si no se encuentra al usuario y 400 si el id es invalido.
