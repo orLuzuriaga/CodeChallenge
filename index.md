@@ -4,7 +4,7 @@ Prueba técnica para cloudApi, donde se construye una API son springBoot que ges
 
 ### Estructura del proyecto.
  El proyecto se estructura de la siguiente manera:
-  1. controller
+  1. controller 
   2. converter
   3. dto
   4. entity
